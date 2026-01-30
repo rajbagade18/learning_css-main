@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            color:red;
+            font-size:50px;
+            background-color: black; 
+            /* or we can use shadow, */
+         }
+         .para_bg:hover{
+            color: red;
+            border: 2px lightsalmon;
+            background-color: rgb(1, 1, 9);
+            background: linear-gradient(black,blue);
+            font-size: 15px;
+            padding: 40px;
+            margin: 50px;
+         }
+         h2:active{
+            color: red;
+            font-size: 40px;
+            cursor: pointer;
+         }
+         a:visited{
+            color:green;
+         }
+         input:focus{
+            background-color:red;
+            color:black;
+            border: 8px yellow;
+         }
+         p::first-letter{
+            color: red;
+            font-size: 30px;
+         }
+         p::first-line{
+            color: blue;
+         }
+         ::selection{
+            color: red;
+            background-color: yellow;
+         }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta voluptatum nostrum perferendis sequi, inventore officiis nobis nulla tenetur facilis culpa molestias minima, neque odit consectetur corrupti consequatur! Recusandae, enim!</p>
+
+    <input type="text"placeholder="enter name"/>
+    <a href="https://www.facebook.com">click here</a>
+    <a href="https://www.pexels.com/search/construction/">click me</a>
+    <a href="https://stock.adobe.com/search?=construction'">more info</a>
+    <h1>Rajj</h1>
+    <h2>welcome to FCT</h2>
+    <p class="para_bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aut natus ipsa minima in quos veniam distinctio quibusdam qui sapiente sunt facere iste, asperiores sit fugiat eum vitae alias magnam!
+    </p>
+</body>
+</html>
